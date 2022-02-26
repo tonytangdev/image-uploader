@@ -12,15 +12,29 @@ const Home: NextPage = () => {
         <meta name="description" content="Upload an image and create a link" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Noto+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         />
       </Head>
       <main className="flex justify-center items-center">
         <Main>
-          <Button label='Choose a file' onPress={() => console.log('click')} />
+          <Button label="Choose a file" onPress={() => console.log('click')} />
         </Main>
       </main>
       <Footer />
