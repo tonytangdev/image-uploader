@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Footer from '../components/footer'
 import Main from '../components/main'
 
 const Home: NextPage = () => {
@@ -15,11 +16,7 @@ const Home: NextPage = () => {
           TEST
         </Main>
       </main>
-      <footer>
-        <span className='flex justify-center text-[#A9A9A9] font-medium'>
-          created by&nbsp;<b className='font-bold underline'>tonytangdev</b>&nbsp;- devChallenges.io
-        </span>
-      </footer>
+      <Footer />
     </div>
   )
 }
