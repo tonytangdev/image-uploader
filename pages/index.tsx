@@ -10,7 +10,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='flex justify-center items-center'>
+        <div className='px-8 py-9 rounded-xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] bg-white'>
         TEST
+        </div>
       </main>
       <footer>
         <span className='flex justify-center text-[#A9A9A9] font-medium'>
