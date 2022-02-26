@@ -1,19 +1,20 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Button from '../components/button'
 import Footer from '../components/footer'
 import Main from '../components/main'
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-[#FAFAFB] h-screen w-screen grid grid-rows-[1fr_auto]'>
+    <div className="bg-[#FAFAFB] h-screen w-screen grid grid-rows-[1fr_auto]">
       <Head>
         <title>Image Uploader</title>
         <meta name="description" content="Upload an image and create a link" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='flex justify-center items-center'>
+      <main className="flex justify-center items-center">
         <Main>
-          TEST
+          <Button />
         </Main>
       </main>
       <Footer />
