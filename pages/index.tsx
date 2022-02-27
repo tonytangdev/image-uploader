@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Footer from '../components/footer'
 import Main from '../components/main'
 import Uploader from '../components/uploader'
+import Uploading from '../components/uploading'
 
 const Home: NextPage = () => {
   return (
