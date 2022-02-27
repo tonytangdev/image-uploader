@@ -1,9 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Button from '../components/button'
-import DragAndDrop from '../components/dragAndDrop'
 import Footer from '../components/footer'
 import Main from '../components/main'
+import Uploader from '../components/uploader'
 
 const Home: NextPage = () => {
   return (
@@ -45,8 +44,7 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex justify-center items-center">
         <Main>
-          <DragAndDrop />
-          <Button label="Choose a file" onPress={() => console.log('click')} />
+          <Uploader />
         </Main>
       </main>
       <Footer />
