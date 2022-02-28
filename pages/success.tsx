@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
+import CopyLink from '../components/copyLink'
 
 const Success: NextPage = () => {
   return (
@@ -18,12 +19,15 @@ const Success: NextPage = () => {
         <h1 className="text-lg font-medium text-[#4F4F4F] mb-6">
           Uploaded Successfully!
         </h1>
-        <Image
-          className="rounded-xl mb-6"
-          src="https://images.unsplash.com/photo-1645921470710-d3c765e04c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          width={338}
-          height={224.4}
-        />
+        <div className="mb-6">
+          <Image
+            className="rounded-xl"
+            src="https://images.unsplash.com/photo-1645921470710-d3c765e04c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            width={338}
+            height={224.4}
+          />
+        </div>
+        <CopyLink link="https://images.unsplash.com/photo-1645921470710-d3c765e04c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
       </div>
     </>
   )
