@@ -5,7 +5,7 @@ const Footer = () => {
         created by&nbsp;
         <a
           href="https://github.com/tonytangdev"
-          className="font-bold underline"
+          className="font-bold underline hover:opacity-50"
         >
           tonytangdev
         </a>
